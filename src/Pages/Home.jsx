@@ -2,7 +2,7 @@ import React from "react";
 import image from '../Components/Assets/image.png';
 import './Home.css'
 import Popular from "../Components/Popular/Popular";
-import Popular_kids from "../Components/Popular/Popularkids";
+import Popularkids from "../Components/Popular/Popularkids";
 import Footer from "../Components/Footer/Footer";
 const Home = () =>{
     // const [menu,setMenu] = useState("home");
