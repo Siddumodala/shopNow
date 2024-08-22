@@ -24,7 +24,7 @@ const Home = () =>{
                 </div>
             </div>
             <Popular/>
-            <Popular_kids/>
+            <Popularkids/>
             <div className="subscription">
                 <div className="text">
                     <h1>Get Exclusive Offers On Your Email</h1>
