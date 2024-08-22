@@ -5,7 +5,7 @@ import Popular from "../Components/Popular/Popular";
 import Popular_kids from "../Components/Popular/Popular_kids";
 import Footer from "../Components/Footer/Footer";
 const Home = () =>{
-    const [menu,setMenu] = useState("home");
+    // const [menu,setMenu] = useState("home");
     return (
         <div className="container">
             <div className="hero">

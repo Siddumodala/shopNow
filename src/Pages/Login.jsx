@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import './Login.css';
 const LoginSignUp = () =>{
-    const [userName,setUserName] = useState("");
-    const [password,setPassword] = useState("");
+    const [userName] = useState("");
+    const [password] = useState("");
     const handleClick=(event)=>{
         if(userName === "" || password === ""){
             alert("please enter valid credentials");

@@ -3,7 +3,7 @@ import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import arrow from "../Assets/arrow.png";
 import cart_icon from "../Assets/cart_icon.png";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { shopContext } from "../../Context/shopContext";
 const Navbar = () => {
@@ -101,7 +101,7 @@ const Navbar = () => {
               setMenu("Home");
             }}
           >
-            {menu === "Home" ? <img src={arrow}></img> : <></>}
+            {menu === "Home" ? <img src={arrow} alt="img"></img> : <></>}
             <Link to="/Home">Home</Link>
           </li>
           <li
@@ -109,7 +109,7 @@ const Navbar = () => {
               setMenu("Men");
             }}
           >
-            {menu === "Men" ? <img src={arrow}></img> : <></>}
+            {menu === "Men" ? <img src={arrow} alt="img"></img> : <></>}
             <Link to="/mens">Men</Link>
           </li>
           <li
@@ -117,7 +117,7 @@ const Navbar = () => {
               setMenu("Kids");
             }}
           >
-            {menu === "Kids" ? <img src={arrow}></img> : <></>}
+            {menu === "Kids" ? <img src={arrow} alt="img"></img> : <></>}
             <Link to="/kids">Kids</Link>{" "}
           </li>
           <li
@@ -125,7 +125,7 @@ const Navbar = () => {
               setMenu("Cart");
             }}
           >
-            {menu === "Cart" ? <img src={arrow}></img> : <></>}
+            {menu === "Cart" ? <img src={arrow} alt="img"></img> : <></>}
             <Link to="/cart">Cart</Link>
           </li>
         </ul>

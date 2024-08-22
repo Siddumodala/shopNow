@@ -1,4 +1,4 @@
-import React,{useContext} from "react";
+import React from "react";
 import banner_mens from '../Components/Assets/banner_mens.png';
 import data_product from "../Components/Assets/Mens_data";
 import Item from "../Components/Item";
