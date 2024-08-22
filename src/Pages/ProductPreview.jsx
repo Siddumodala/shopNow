@@ -13,7 +13,7 @@ const ProductView = () => {
             <img src={preview.image} alt="img" style={{width:"100px"}} />
             <img src={preview.image} alt="img" style={{width:"100px"}} />
         </div>
-        <img src={preview.image} style={{width:"400px",marginLeft:"10px",marginRight:"20px"}} />
+        <img src={preview.image} alt="img" style={{width:"400px",marginLeft:"10px",marginRight:"20px"}} />
         <div>
             <h1 style={{paddingBottom:"10px"}}>{preview.name}</h1>
             <img src={staricon} alt="img"/>

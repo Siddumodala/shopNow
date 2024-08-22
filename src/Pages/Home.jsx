@@ -1,8 +1,8 @@
-import React, {useState } from "react";
+import React from "react";
 import image from '../Components/Assets/image.png';
 import './Home.css'
 import Popular from "../Components/Popular/Popular";
-import Popular_kids from "../Components/Popular/Popular_kids";
+import Popular_kids from "../Components/Popular/Popularkids";
 import Footer from "../Components/Footer/Footer";
 const Home = () =>{
     // const [menu,setMenu] = useState("home");
@@ -20,7 +20,7 @@ const Home = () =>{
                     </div>
                 </div>
                 <div className="hero-right">
-                    <img src={image}/>
+                    <img src={image} alt="img"/>
                 </div>
             </div>
             <Popular/>
